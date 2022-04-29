@@ -1,0 +1,23 @@
+@mixin fuente ($valor){
+    font-size: $valor;
+}
+
+.navbar-brand {
+    @include fuente(30px);
+}
+
+.offcanvas {
+    @include fuente(larger)
+}
+
+p {
+    @include fuente(18px)
+}
+
+#envios {
+    @include fuente(20px)
+}
+
+#hoybanco {
+    @include fuente (larger);
+}

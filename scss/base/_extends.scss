@@ -1,0 +1,20 @@
+%flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+#hoybanco {
+    @extend %flexbox
+}
+
+.section-container {
+    @extend %flexbox
+}
+
+#envios {
+    @extend %flexbox
+}
+
+.footer-social-icons {
+    @extend %flexbox
+}

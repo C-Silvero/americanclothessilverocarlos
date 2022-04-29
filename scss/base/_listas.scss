@@ -1,0 +1,52 @@
+$colores: 
+whitesmoke,
+#0d6efd,
+#322f30,
+#3d5b99,
+#00aced,
+#eb8231;
+
+
+$size:
+larger,
+18px,
+24px,
+20px,
+30px,
+20px,
+8px;
+
+
+
+h2 {
+    color: nth($colores, 2);
+    font-size: nth($size, 5);
+    margin-top: 160px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    color: nth($colores, 2) ;
+    padding: 0;
+    display: flex;
+}
+
+h4 {
+    color: nth($colores, 1);
+    font-size: nth($size, 4);
+}
+
+@media screen and (max-width: 897px) {
+    *{
+        font-size: nth($size, 7);
+    }
+    .col {
+        width: 50;
+    }
+    #hoybanco {
+        margin-top: 12rem ;
+    }
+    .preg {
+        font-size: nth($size, 7);
+    }
+}
