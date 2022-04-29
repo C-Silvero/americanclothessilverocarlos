@@ -2,9 +2,7 @@
 
 .clientes-container {
     display: flex;
-}
-
-.hijoclientes {
+        .hijoclientes {
     margin-bottom: 100px;
     margin-left: 10rem;
     margin-right: 10rem;
@@ -12,8 +10,8 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    }
 }
-
 p {
     color: whitesmoke;
     font-size: 16px;
