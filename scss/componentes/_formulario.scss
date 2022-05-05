@@ -1,0 +1,56 @@
+.cuenta {
+    color: #0d6efd, ;
+    margin-top: 19rem;
+    text-align: center;
+}
+
+.form-row {
+    font-size: 20px;
+    color:#0d6efd, ;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+        input[type="text"] {
+            color: whitesmoke;
+            background-color: #4985dd;
+            border-radius: 1px solid whitesmoke;
+        }
+    }
+
+.form-row2 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-left: 1.5rem ;
+    display: flex;
+    justify-content: center;
+    input[type="email"] {
+        color: whitesmoke;
+        background-color: #4985dd;
+        border-radius: 1px solid whitesmoke;
+    }
+}
+.form-row3 {
+    font-size: 20px;
+    margin-top: 1rem;
+    margin-right: 2.0rem;
+    display: flex;
+    justify-content: center;
+    input[type="password"] {
+        color: whitesmoke;
+        background-color: #4985dd;
+        border-radius: 1px solid whitesmoke;
+    }
+}
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15rem;
+        button {
+           font-size: 20px;
+           background-color: whitesmoke;
+           color: black;
+           margin-top: 2rem;
+           margin-left: 3rem;
+        }
+    }
+
