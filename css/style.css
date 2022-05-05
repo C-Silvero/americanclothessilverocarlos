@@ -117,6 +117,10 @@ h4 {
   footer {
     margin-top: 6rem;
   }
+
+  .gracias {
+    font-size: 6px;
+  }
 }
 /*Clientes*/
 .clientes-container {
@@ -316,6 +320,12 @@ p.item {
   color: black;
   margin-top: 2rem;
   margin-left: 3rem;
+}
+
+.gracias {
+  font-size: 30px;
+  text-align: center;
+  margin: 20rem;
 }
 
 /*# sourceMappingURL=style.css.map */
