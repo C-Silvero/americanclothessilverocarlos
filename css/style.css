@@ -10,7 +10,7 @@ body {
   font-family: "Comfortaa", cursive;
 }
 
-.footer-social-icons, #envios, .section-container, #hoybanco {
+.footer-social-icons, .envios, .section-container, #hoybanco {
   display: flex;
   justify-content: center;
 }
@@ -166,11 +166,15 @@ p {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 0.5rem;
-  margin-bottom: 22rem;
+  margin-top: 4.5rem;
+  margin-bottom: 8rem;
 }
 
 /*fin nosotros*/
+footer {
+  margin-top: 16rem;
+}
+
 .footer-social-icons {
   width: 250px;
   display: flex;
@@ -236,7 +240,7 @@ p {
 }
 
 .preg {
-  margin-bottom: 4.3rem;
+  margin-bottom: 3rem;
   font-size: 18px;
 }
 
