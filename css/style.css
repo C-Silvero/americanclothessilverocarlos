@@ -277,10 +277,14 @@ form {
   box-shadow: 0px 0px 20px 0px whitesmoke;
 }
 
-form button {
+.btn {
   margin-top: 15px;
   margin-bottom: 5px;
   width: 100%;
+}
+
+.gracias {
+  font-size: 40px;
 }
 
 @media only screen and (max-width: 600px) {
