@@ -1,63 +1,43 @@
+
 .cuenta {
     color: #0d6efd, ;
-    margin-top: 19rem;
+    margin-top: 10rem;
     text-align: center;
 }
 
-.form-row {
-    font-size: 20px;
-    color:#0d6efd, ;
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
-        input[type="text"] {
-            color: whitesmoke;
-            background-color: #4985dd;
-            border-radius: 1px solid whitesmoke;
-        }
-    }
-
-.form-row2 {
-    font-size: 20px;
-    margin-top: 1rem;
-    margin-left: 1.5rem ;
-    display: flex;
-    justify-content: center;
-    input[type="email"] {
-        color: whitesmoke;
-        background-color: #4985dd;
-        border-radius: 1px solid whitesmoke;
-    }
+.ingresar {
+    margin-top: 0;
 }
-.form-row3 {
-    font-size: 20px;
-    margin-top: 1rem;
-    margin-right: 2.0rem;
-    display: flex;
-    justify-content: center;
-    input[type="password"] {
-        color: whitesmoke;
-        background-color: #4985dd;
-        border-radius: 1px solid whitesmoke;
-    }
+
+form {
+    width: 35%;
+    background-color: black;
+    position:relative;
+    margin-top: 14rem;
+    left:50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #d6d6d6;
+    border-radius: 3px;
+    padding: 30px 60px;
+    box-shadow: 0px 0px 20px 0px whitesmoke;
 }
-.submit {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 15rem;
-        button {
-           font-size: 20px;
-           background-color: whitesmoke;
-           color: black;
-           margin-top: 2rem;
-           margin-left: 3rem;
-        }
+  
+form button {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 100%;
+  }
+  
+  
+  @media only screen and (max-width: 600px) {
+    form {
+      width: 90%;
+      padding: 10px 5px;
     }
-
-
-
-.gracias {
-    font-size: 30px;
-     text-align: center;
-     margin: 20rem;
-}
+    }
+    
+    @media only screen and (max-width: 1200px) {
+    form {
+      width: 80%;
+    }
+    }
