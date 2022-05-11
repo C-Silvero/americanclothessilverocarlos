@@ -234,6 +234,14 @@ h4 {
   background-color: #eb8231;
 }
 
+#somos {
+  margin-top: 14rem;
+}
+
+#envios {
+  margin-bottom: 0;
+}
+
 h1 {
   margin-bottom: 3rem;
 }
@@ -356,7 +364,7 @@ html {
 }
 .accordion-link h3 {
   font-weight: 500;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .accordion-link i {
@@ -381,7 +389,7 @@ html {
 }
 .answer p {
   color: #fff;
-  font-size: 25px;
+  font-size: 20px;
   padding: 2rem;
 }
 
