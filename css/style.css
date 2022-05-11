@@ -314,6 +314,11 @@ form {
   text-align: center;
 }
 
+html {
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
 /*Section used for centering process*/
 .faq {
   width: 100%;
