@@ -1,19 +1,21 @@
 /*Clientes*/
 
-.clientes-container {
-    display: flex;
-        .hijoclientes {
-    margin-bottom: 100px;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    }
+ 
+
+.card { 
+background-color: black;
+border: 1px solid #d6d6d6;
+border-radius: 3px;
+padding: 30px 60px;
+box-shadow: 0px 0px 20px 0px rgb(255, 255, 80);
 }
-p {
-    color: whitesmoke;
+
+
+.card-title {
+    position: relative;
+}
+.card-text {
+    color: whitesmoke ;
     font-size: 16px;
 }
 
