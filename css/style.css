@@ -410,4 +410,17 @@ html {
   transform: scale(1.1);
 }
 
+#words {
+  animation: move 3s ease-in-out infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translate(-5%, -5%);
+  }
+  50% {
+    text-shadow: 0 25px 60px yellow;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
